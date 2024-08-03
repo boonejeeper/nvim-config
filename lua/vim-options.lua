@@ -7,3 +7,8 @@ vim.g.mapleader = " "
 
 vim.opt.number = true
 vim.opt.relativenumber = true
+
+vim.g.zig_fmt_autosave = 0
+
+
+vim.keymap.set("n", "<ESC><ESC>", ":nohl<CR>", {})
